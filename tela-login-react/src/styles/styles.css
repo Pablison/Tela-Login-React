@@ -25,6 +25,7 @@ body {
     background-size: 22.5rem;
     color: var(--branco);
     height: 100vh;
+    margin: 0;
 }
 
 #root {
