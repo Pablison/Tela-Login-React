@@ -1,0 +1,7 @@
+.subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--offwhite);
+    margin-bottom: 1em;
+    text-align: center;
+}

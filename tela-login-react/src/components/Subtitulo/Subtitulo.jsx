@@ -1,5 +1,5 @@
 import React from 'react';
-import './Subtitulo.css';
+import '@/components/Subtitulo/Subtitulo.css';
 
 export function Subtitulo({ children }) {
     return (

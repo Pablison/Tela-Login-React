@@ -1,0 +1,13 @@
+.item-redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 14px;
+    color: var(--offwhite);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.item-redes-sociais:hover {
+    color: var(--verde-destaque);
+}

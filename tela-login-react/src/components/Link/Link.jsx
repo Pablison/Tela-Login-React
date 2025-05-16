@@ -1,5 +1,5 @@
 import React from 'react';
-import './Link.css';
+import '@/components/Link/Link.css';
 
 export function Link({ children }) {
     return (

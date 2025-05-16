@@ -1,8 +1,8 @@
 import React from 'react';
-import './Titulo.css';
+import '@/components/Texto/Texto.css';
 
-export function Titulo({ children }) {
+export function Texto({ classe, children }) {
     return (
-        <h1 className='form__titulo'>{children}</h1>
-    )
+        <p className={classe}>{children}</p>
+    );
 }

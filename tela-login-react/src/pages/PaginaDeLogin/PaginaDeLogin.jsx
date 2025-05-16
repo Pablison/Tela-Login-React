@@ -1,13 +1,14 @@
 import React from 'react';
-import { Titulo } from '../../components/Titulo/Titulo';
-import { Subtitulo } from '../../components/Subtitulo/Subtitulo';
-import { CampoDeDigitacao } from '../../components/CampoDeDigitacao/CampoDeDigitacao';
-import { Botao } from '../../components/Botao/Botao';
-import { Checkbox } from '../../components/Checkbox/Checkbox';
-import { Texto } from '../../components/Texto/Texto';
-import { ItemRedesSociais } from '../../components/ItemRedesSociais/ItemRedesSociais';
-import { Link } from '../../components/Link/Link';
-import './PaginaDeLogin.css';
+import { Titulo } from '@/components/Titulo/Titulo';
+import { Subtitulo } from '@/components/Subtitulo/Subtitulo';
+import { CampoDeDigitacao } from '@/components/CampoDeDigitacao/CampoDeDigitacao';
+import { Botao } from '@/components/Botao/Botao';
+import { Checkbox } from '@/components/Checkbox/Checkbox';
+import { Texto } from '@/components/Texto/Texto';
+import { ItemRedesSociais } from '@/components/ItemRedesSociais/ItemRedesSociais';
+import { Link } from '@/components/Link/Link';
+import imagemLogin from '@/assets/img/imagemLogin.png';
+import '@/css/PaginaDeLogin.css';
 
 export function PaginaDeLogin() {
     const [email, setEmail] = React.useState('');
@@ -21,7 +22,7 @@ export function PaginaDeLogin() {
 
     return (
         <div className='container-login'>
-            <img src='/img/imagem-login.png' alt='Uma mulher negra de cabelos crespos usando óculos e mexendo no computador, também há o logo da codeconnect' />
+            <img src={imagemLogin} alt='Uma mulher negra de cabelos crespos usando óculos e mexendo no computador, também há o logo da codeconnect' />
             <section>
                 <form onSubmit={handleSubmit}>
                     <Titulo>Login</Titulo>
