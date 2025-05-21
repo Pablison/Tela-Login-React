@@ -1,5 +1,5 @@
 import React from 'react';
-import { Titulo } from '@/components/Titulo/Titulo';
+import Titulo from '@/components/Titulo/Titulo';
 import { Subtitulo } from '@/components/Subtitulo/Subtitulo';
 import { CampoDeDigitacao } from '@/components/CampoDeDigitacao/CampoDeDigitacao';
 import { Botao } from '@/components/Botao/Botao';
@@ -22,7 +22,7 @@ export function PaginaDeLogin() {
 
     return (
         <div className='container-login'>
-            <img src={imagemLogin} alt='Uma mulher negra de cabelos crespos usando óculos e mexendo no computador, também há o logo da codeconnect' />
+            <img src={imagemLogin} className="imagem-login" alt='Uma mulher negra de cabelos crespos usando óculos e mexendo no computador, também há o logo da codeconnect' />
             <section>
                 <form onSubmit={handleSubmit}>
                     <Titulo>Login</Titulo>
